@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ <main>
+
+<div class="hamburger-menu" onclick="toggleMenu()">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  
+  <nav id="mobile-nav">
+    <a href="#Home">Home</a>
+    <a href="#About">About Us</a>
+    <a href="#Products">Products</a>
+    <a href="#Contact">Contact Us</a> 
+    <p>Sign in / Explore now</p>
+  </nav>
+  
+    <nav >
+         <img src="assets/images/header-logo.svg" alt="Header Logo">
+
+         <div class="Page-links">
+            <a href="#Home">Home</a>
+            <a href="#About">About Us</a>
+            <a href="#Products">Products</a>
+            <a href="#Contact">Contact Us</a> 
+        </div>
+
+        <p>Sign in / Explore now</p>
+    </nav>
+
+   <section class="Hero">
+    <div class="hero-main">
+   <p class = "Summer">Our Summer collections</p>
+
+   <div class="hero-header">
+    <h1>The New Arrival<br>
+    <span>Nike</span> Shoes</h1>
+    <p>Discover stylish Nike arrivals, quality <br>
+       comfort, and innovation for your active life.</p>
+   </div>
+
+   <button >Shop now 
+    <img src="assets/icons/arrow-right.svg" alt="Arrow Right">
+   </button>
+
+   <div class="stats">
+    <div class="stat1">
+        <h1>1k+</h1>
+        <p>Brands</p>
+    </div>
+    <div class="stat1">
+        <h1>500+</h1>
+        <p>Shops</p>
+    </div>
+    <div class="stat1">
+        <h1>250k+</h1>
+        <p>Customers</p>
+    </div>
+   </div>
+</div>
+
+<div class="image-main">
+    <img src="assets/images/big-shoe2.png" alt="big shoe 1" id="big-shoe1">
+    <div class="small-shoes">
+        <div class="small">
+            <img src="assets/images/thumbnail-shoe1.svg" alt="" onclick="updateBigImage('assets/images/big-shoe1.png')">
+        </div>
+        <div class="small">
+            <img src="assets/images/thumbnail-shoe2.svg" alt="" onclick="updateBigImage('assets/images/big-shoe2.png')">
+        </div>
+        <div class="small">
+            <img src="assets/images/thumbnail-shoe3.svg" alt="" onclick="updateBigImage('assets/images/big-shoe3.png')">
+        </div>
+    </div>
+</div>
+
+
+
+
+   </section>
+   <section class="Products" id = "Products">
+  <div class="Product-header">
+    <header>Our <span>Popular</span> Products</header>
+  <p>Experience top-notch quality and style with our sought-after <br>
+    selections. Discover a world of comfort, design, and value</p>
+  </div>
+  <div class="Product-images">
+    <div class="Product1">
+        <img src="assets/images/shoe4.svg" alt="nike Air jordan 1">
+        <div class="rating">
+            <img src="assets/icons/star.svg" alt="Star">
+            <p>(4.5)</p>
+        </div>
+        <h1>Nike Air Jordan 01</h1>
+        <p>$200.20</p>
+
+    </div>
+    <div class="Product1">
+        <img src="assets/images/shoe5.svg" alt="nike Air jordan 1">
+        <div class="rating">
+            <img src="assets/icons/star.svg" alt="Star">
+            <p>(4.5)</p>
+        </div>
+        <h1>Nike Air Jordan 2</h1>
+        <p>$290.20</p>
+
+    </div>
+    <div class="Product1">
+        <img src="assets/images/shoe6.svg" alt="nike Air jordan 1">
+        <div class="rating">
+            <img src="assets/icons/star.svg" alt="Star">
+            <p>(4.5)</p>
+        </div>
+        <h1>Nike Air Jordan 07</h1>
+        <p>$280.20</p>
+
+
+    </div>
+    <div class="Product1">
+        <img src="assets/images/shoe7.svg" alt="nike Air jordan 1">
+        <div class="rating">
+            <img src="assets/icons/star.svg" alt="Star">
+            <p>(4.5)</p>
+        </div>
+        <h1>Nike Air Jordan 100</h1>
+         <p>$230.20</p>
+    </div>
+  </div>
+
+   </section>
+   <section class="Quality" id="About">
+<div class="Quality-container">
+    <div class="Quality-header">
+        <header>We Provide You<span> Super <br>Quality</span> Shoes</header>
+        <p>Ensuring premium comfort and style, our meticulously <br>
+            crafted footwear is designed to elevate your experience,
+             <br>providing you with unmatched quality, innovation, and a <br>
+             touch of elegance.</p>
+    </div>
+    <div class="Quality-footer">
+        <p>Our dedication to detail and excellence ensures your 
+            <br>satisfaction</p>
+        <button>View details</button>
+    </div>
+</div>
+     <img src="assets/images/shoe8.svg" alt="">
+   </section>
+   <section class="Services">
+
+  <div class="cards">
+    <img src="assets/icons/delivery.png" alt="Free shipping">
+    <h1>Free Shipping</h1>
+    <p>Enjoy seamless shopping with our <br> complimentary shipping service</p>
+  </div>
+  <div class="cards">
+    <img src="assets/icons/verified.png" alt="Free shipping">
+    <h1>Secure Payment</h1>
+    <p>Enjoy seamless shopping with our <br> complimentary shipping service</p>
+  </div>
+  <div class="cards">
+    <img src="assets/icons/support2.svg" alt="Free shipping">
+    <h1>Love to help you</h1>
+    <p>Enjoy seamless shopping with our <br> complimentary shipping service</p>
+  </div>
+   </section>
+   <section class="Offers">
+    
+<img src="assets/images/offer.svg" alt="">
+    <div class="Offers-container">
+        <div class="Offers-header">
+            <header><span> Special </span> Offer</header>
+            <p>Embark on a shopping journey that redefines your experience with 
+                unbeatable deals. From premier selections to incredible savings, we offer 
+                unparalleled value that sets us apart.</p>
+        </div>
+        <div class="Offers-footer">
+            <p>Navigate a realm of possibilities designed to fulfill your unique desires,
+                 surpassing the loftiest expectations. Your journey with us is nothing short 
+                 of exceptional.</p>
+           <div class="offers1"> <button>Shop now</button>
+            <button class="btn">Learn more</button></div>
+
+        </div>
+    </div>
+   </section>
+   <section class="Reviews">
+<div class="reviews-header">
+    <header>What Our <span>Customers</span> Say?</header>
+    <p>Hear genuine stories from our satisfied customers about <br>
+         their exceptional experiences with us.</p>
+</div>
+
+<div class="reviews-people">
+    <div class="review1">
+        <img src="assets/images/customer1.jpeg" alt="customer 1">
+        <p>The attention to detail and the quality of <br>
+            the product exceeded my expectations. <br>
+             Highly recommended!</p>
+             <div class="review1-star">
+                <img src="assets/icons/star.svg" alt="star">
+                <p>(4.5)</p>
+            
+             </div>
+             <h1>Morich Brown</h1>
+    </div>
+
+    <div class="review1">
+        <img src="assets/images/customer2.svg" alt="customer 2">
+        <p>The product not only met but exceeded <br>
+            my expectations. I'll definitely be a <br> returning customer! 
+             <div class="review1-star">
+                <img src="assets/icons/star.svg" alt="star">
+                <p>(4.5)</p>
+              
+             </div>
+             <h1>Lota Mongeskar</h1>
+    </div>
+</div>
+
+   </section>
+   <section class="Subscribe" id="Contact">
+    <header>Sign Up for <span>Updates</span><br> & Newsletter</header>
+    <div class="email">
+        <input type="email" placeholder="Subscribe@nike.com" >
+        <button>Sign Up</button>
+    </div>
+</section>
+   <section class="Footer">
+   <div class="container">
+    <div class="footer1">
+        <img src="assets/images/footer-logo.svg" alt="Footer nike logo">
+        <p>Get shoes ready for the new term at your <br>
+            nearest Nike store. Find Your perfect Size In <br>
+            Store. Get Rewards</p>
+    </div>
+    <div class="social-links">
+        <img src="assets/icons/facebook.svg" alt="facebook logo">
+        <img src="assets/icons/twitter.svg" alt="Twitter Logo">
+        <img src="assets/icons/instagram.svg" alt="Instagram logo">
+    </div>
+   </div>
+ <div class="footer2">
+    <h1>Products</h1>
+    <a href="#">Air Force 1</a>
+    <a href="#">Air Max 1</a>
+    <a href="#">Air Ultra 1</a>
+    <a href="#">Nike Waffle Racer</a>
+    <a href="#">Special Editions</a>
+    <a href="#">KSBR EDITION</a>
+
+</div>
+
+<div class="footer3">
+    <h1>Help</h1>
+    <a href="#">About Us</a>
+    <a href="#">FAQS</a>
+    <a href="#">How it Works</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Payment Policy</a>
+</div>
+
+<div class="footer4">
+    <h1>Get in touch</h1>
+    <a href="#">ddrake1925@gmail.com</a>
+    <a href="#">9121325458</a>
+
+</div>
+   </section>
+
+   <section class="copy">
+ <div class="copy1">
+    <img src="assets/icons/copyright-sign.svg" alt="copyright symbol">
+    <p>Copyright. All rights reserved</p>
+ </div>
+    <p>Terms & Conditions</p>
+   </section>
+ </main>   
+</body>
+<script>
+    function toggleMenu() {
+  var nav = document.getElementById("mobile-nav");
+  if (nav.style.display === "flex") {
+    nav.style.display = "none";
+  } else {
+    nav.style.display = "flex";
+  }
+}
+function updateBigImage(imageSrc) {
+        var bigImage = document.getElementById('big-shoe1');
+        console.log("Clicked");
+        bigImage.src = imageSrc;
+    }
+
+</script>
+</html>
